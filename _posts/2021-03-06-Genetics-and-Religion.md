@@ -50,13 +50,21 @@ USA: 560, 240
 --Spain: 320, 570
 
 The data is the consolidated in means within the numbers of approvals and disapprovals.
+
 Bad  -  550.0
+
 Good  -  348.3
+
 Religious  -  282.5
+
 ReligiousNS  -  702.5
+
 Median of more educated that approve  -  683.333333
+
 Median of less educated that approve  -  755.833333
+
 Median age or younger approve   -  780.0
+
 Older than median approve  -  658.333333
 
 Looking through the results of the means, it appears that some opinions on average are much more prevalent than others. Those who see genetic modification as a good thing are much lower on average than those who see it as a bad thing. While on average, those of a younger age are much more supportive of the idea than those of an older age.
@@ -82,8 +90,11 @@ USA: 210, 790
 Means:
 
 Bad  -  550.0
+
 Good  -  348.3
+
 Religious  -  282.5
+
 ReligiousNS  -  702.5
 
 T test category:
@@ -111,7 +122,7 @@ Bad / Religious - 30.4
 Bad / Non-Religious - 24.2
 
 
-- 20![download - 2021-03-08T035219 830](https://user-images.githubusercontent.com/48320567/110390319-cfa02b00-8033-11eb-9849-fefed2d3e0aa.png)
+![download - 2021-03-08T035219 830](https://user-images.githubusercontent.com/48320567/110390319-cfa02b00-8033-11eb-9849-fefed2d3e0aa.png)
 
 
 The Chi-square test allowed for much clearer results and a more concrete correlation to the idea that religious groups reject the idea of genetic modification.
