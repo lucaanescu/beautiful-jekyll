@@ -37,17 +37,17 @@ Next are rough estimates of survey takers split of approval rates in using genet
 
                  Good							Bad
 USA: 560, 240
-UK: 340, 580
-France: 160, 750
-Germany: 280, 680
-India: 560, 240
-Canada: 300, 620
-South Korea: 470, 480
-Taiwan: 440, 470
-Italy: 210, 680
-Brazil: 250, 660
-Sweden: 290, 630
-Spain: 320, 570
+--UK: 340, 580
+--France: 160, 750
+--Germany: 280, 680
+--India: 560, 240
+--Canada: 300, 620
+--South Korea: 470, 480
+--Taiwan: 440, 470
+--Italy: 210, 680
+--Brazil: 250, 660
+--Sweden: 290, 630
+--Spain: 320, 570
 
 The data is the consolidated in means within the numbers of approvals and disapprovals.
 Bad  -  550.0
@@ -65,17 +65,17 @@ Next is the percentages of religious beliefs separated by nations. The numbers d
 
            Religious						Non-Religious
 USA: 210, 790
-UK: 270, 730
-France: 160, 840
-Germany: 250, 750
-India: 570, 250
-Canada: 230, 770
-South Korea: 390, 610
-Taiwan: 390, 610
-Italy: 180, 820
-Brazil: 240, 760
-Sweden: 210, 790
-Spain: 290, 710
+--UK: 270, 730
+--France: 160, 840
+--Germany: 250, 750
+--India: 570, 250
+--Canada: 230, 770
+--South Korea: 390, 610
+--Taiwan: 390, 610
+--Italy: 180, 820
+--Brazil: 240, 760
+--Sweden: 210, 790
+--Spain: 290, 710
 
 
 
@@ -110,8 +110,9 @@ Good / Non-Religious - 30.4
 Bad / Religious - 30.4
 Bad / Non-Religious - 24.2
 
-img: assets/img/download - 20![download - 2021-03-08T035219 830](https://user-images.githubusercontent.com/48320567/110390319-cfa02b00-8033-11eb-9849-fefed2d3e0aa.png)
-21-03-08T035219.830.png
+
+- 20![download - 2021-03-08T035219 830](https://user-images.githubusercontent.com/48320567/110390319-cfa02b00-8033-11eb-9849-fefed2d3e0aa.png)
+
 
 The Chi-square test allowed for much clearer results and a more concrete correlation to the idea that religious groups reject the idea of genetic modification.
 
