@@ -127,4 +127,30 @@ Bad / Non-Religious - 24.2
 
 The Chi-square test allowed for much clearer results and a more concrete correlation to the idea that religious groups reject the idea of genetic modification.
 
+On further Examination of the Confidence intervals, it is revealed that with a confidence interval of 95% the results deviate a bit.
+
+
+Good lower: 280.49213 Good upper: 416.174536
+Bad lower: 464.09964 Bad lower: 635.90036
+Religious lower: 222.441917 Religious upper: 342.558083
+Non-Religious lower: 619.665854 Non-Religious upper: 785.334146
+
+The final steps were to ensure the multiple linear regressions yeilded relevant values. As they were examined, they have been shown to hold values close to one and higher than 0.
+
+
+Non-Religious and Good = 0.435
+
+Religious and Good = 0.449
+
+Religious and Bad = 0.513
+
+Non-Religious and Bad = 0.423
+
+
+-
+In Conclusion
+-
+
 With this information, we fail to reject the null hypothesis as we have proven that religious groups are more inclined to disapprove of genetic modification than non-religious groups.
+
+There is deffinetively a connection between religious groups and the genetic modification of the young due to high R values and relevant means associated with their respective values.
