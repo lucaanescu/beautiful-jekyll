@@ -13,7 +13,8 @@ However, despite the progress of modern medicine there are still many moral impl
 The question remained of which individuals are most opposed to the idea. The statistics will aim to test whether religious beliefs are more inclined to make individuals less accepting of genetic modification.
 Historically, religious groups have been opposed to certain scientific experimentation. This could be something they would widely be opposed to. The data is recorded of those who are religious and if they would approve of genetic modification.
 
-Data was pulled from Pewresearch.org among other sources (Change this) to discover percentages of population that correlated with the assigned attributes. The data is split between nations that the sources had data taken from.
+Data was pulled from Pewresearch.org among Global media surveys and Public views to discover percentages of population that correlated with the assigned attributes. The data is split between nations that the sources had data taken from.
+
 H0 : µ = There is a correlation between religious groups and their willingness to genetically modify their children
 Ha : µ ≠ There is no correlation between religious groups and their willingness to modify their children generically
 
@@ -48,6 +49,10 @@ USA: 560, 240
 --Brazil: 250, 660
 --Sweden: 290, 630
 --Spain: 320, 570
+
+A more compiled median of the data on a box plot.
+
+![download - 2021-03-08T183926 507](https://user-images.githubusercontent.com/48320567/110398351-b30aef80-8041-11eb-8bb6-b09ba7144cab.png)
 
 The data is the consolidated in means within the numbers of approvals and disapprovals.
 
