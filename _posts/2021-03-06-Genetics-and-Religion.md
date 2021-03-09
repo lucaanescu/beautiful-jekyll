@@ -36,19 +36,19 @@ Around 12,000 responses with an estimate of 1,000 for each major country / regio
 
 Next are rough estimates of survey takers split of approval rates in using genetic modification:
 
-                 Good							Bad
-USA: 560, 240
---UK: 340, 580
---France: 160, 750
---Germany: 280, 680
---India: 560, 240
---Canada: 300, 620
---South Korea: 470, 480
---Taiwan: 440, 470
---Italy: 210, 680
---Brazil: 250, 660
---Sweden: 290, 630
---Spain: 320, 570
+   Good							Bad
+USA: 560            240
+UK: 340             580
+France: 160         750
+Germany: 280        680
+India: 560          240
+Canada: 300         620
+South Korea: 470    480
+Taiwan: 440         470
+Italy: 210          680
+Brazil: 250         660
+Sweden: 290         630
+Spain: 320          570
 
 A more compiled median of the data on a box plot.
 
@@ -76,19 +76,19 @@ Looking through the results of the means, it appears that some opinions on avera
 These results are likely to influence the charts of the crosstab examination.
 Next is the percentages of religious beliefs separated by nations. The numbers display if an individual is both religious and believes that humans evolved over time.
 
-           Religious						Non-Religious
-USA: 210, 790
---UK: 270, 730
---France: 160, 840
---Germany: 250, 750
---India: 570, 250
---Canada: 230, 770
---South Korea: 390, 610
---Taiwan: 390, 610
---Italy: 180, 820
---Brazil: 240, 760
---Sweden: 210, 790
---Spain: 290, 710
+   Religious						Non-Religious
+USA: 210                     790
+UK: 270                      730
+France: 160                  840
+Germany: 250                 750
+India: 570                   250
+Canada: 230                  770
+South Korea: 390             610
+Taiwan: 390                  610
+Italy: 180                   820
+Brazil: 240                  760
+Sweden: 210                  790
+Spain: 290                   710
 
 
 
