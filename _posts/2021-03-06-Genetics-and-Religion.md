@@ -52,23 +52,23 @@ USA: 560, 240
 
 A more compiled median of the data on a box plot.
 
-![download - 2021-03-08T183926 507](https://user-images.githubusercontent.com/48320567/110398351-b30aef80-8041-11eb-8bb6-b09ba7144cab.png)
+![relNo](https://user-images.githubusercontent.com/48320567/110399131-4395ff80-8043-11eb-9164-260e2d8de0bd.PNG)
 
 The data is the consolidated in means within the numbers of approvals and disapprovals.
 
-Bad  -  550.0
+Bad: 550.0
 
-Good  -  348.3
+Good: 348.3
 
-Religious  -  282.5
+Religious: 282.5
 
-ReligiousNS  -  702.5
+ReligiousNS: 702.5
 
-Median of more educated that approve  -  683.333333
+Median of more educated that approve: 683.333333
 
-Median of less educated that approve  -  755.833333
+Median of less educated that approve: 755.833333
 
-Median age or younger approve   -  780.0
+Median age or younger approve: 780.0
 
 Older than median approve  -  658.333333
 
@@ -94,13 +94,13 @@ USA: 210, 790
 
 Means:
 
-Bad  -  550.0
+Bad: 550.0
 
-Good  -  348.3
+Good: 348.3
 
-Religious  -  282.5
+Religious: 282.5
 
-ReligiousNS  -  702.5
+ReligiousNS: 702.5
 
 T test category:
 
@@ -121,10 +121,10 @@ The P value of the combined good and bad graphs is quite low showing the connect
 The issue that arises here is that the data is a bit too generalized and it would be clearer how the two are connected via a Chi square test to examine the categorical data more clearly.
 Crosstabing the values of the charts, we can see a few things in the fact that both Good / Religious and Bad / Non-Religious share a similar value due to what is likely the fact religious individuals dislike the idea of genetic modification as the value is lower than those who do not approve of it and are religious.
 
-Good / Religious - 24.2
-Good / Non-Religious - 30.4
-Bad / Religious - 30.4
-Bad / Non-Religious - 24.2
+Good / Religious: 24.2
+Good / Non-Religious: 30.4
+Bad / Religious: 30.4
+Bad / Non-Religious: 24.2
 
 
 ![download - 2021-03-08T035219 830](https://user-images.githubusercontent.com/48320567/110390319-cfa02b00-8033-11eb-9849-fefed2d3e0aa.png)
