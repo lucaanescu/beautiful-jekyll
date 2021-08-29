@@ -7,5 +7,5 @@ tags: python, other
 
 I wondered for a while, is there exactly a science or logic to why certain pokemon are picked for competitive tiers.
 
-bigimg: Documents\BioWare\Data\Pokemon\pokemon1.jpg
+bigimg: assets\img\pokemon1.jpg
 
