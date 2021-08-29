@@ -3,9 +3,10 @@ layout: post
 title: Pokemon Ranking based on Stat total
 subtitle: How Important is the stat total or what statistic is important to a pokemon utility in ranked use
 tags: python, other
+image: assets\img\pokemon1.jpg
 ---
 
 I wondered for a while, is there exactly a science or logic to why certain pokemon are picked for competitive tiers.
 
-image: assets\img\pokemon1.jpg
+{{page.image}}
 
