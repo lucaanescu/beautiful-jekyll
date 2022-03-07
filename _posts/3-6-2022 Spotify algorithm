@@ -1,0 +1,154 @@
+
+This project will take input from the user and determine songs based on their prefferences.
+
+import pandas as pd
+!pip install spotipy
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import spotipy
+import os
+%matplotlib inline
+
+df1 = pd.read_csv('genres_v2.csv')
+df1
+
+song_grouped = df1.groupby(['genre']).agg({'key': 'count'}).reset_index()
+grouped_sum = song_grouped['key'].sum()
+song_grouped['percentage']  = song_grouped['key'].div(grouped_sum)*100
+song_grouped.sort_values(['key', 'genre'], ascending = [0,1])
+
+songs = df1['genre'].unique()
+len(songs)
+
+from sklearn.model_selection import train_test_split
+
+train_data, test_data = train_test_split(df1, test_size = 0.20, random_state=0)
+
+import plotly.express as px 
+sound_features = ['acousticness', 'danceability', 'energy', 'instrumentalness', 'liveness', 'valence']
+fig = px.line(df1, x='genre', y=sound_features)
+fig.show()
+
+!python -m spacy download en_core_web_md
+!wget https://raw.githubusercontent.com/LambdaSchool/DS-Unit-4-Sprint-1-NLP/main/requirements.txt
+!pip install -r requirements.txt
+
+import re
+from pprint import pprint
+
+import gensim
+import gensim.corpora as corpora
+from gensim.utils import simple_preprocess
+from gensim.models import CoherenceModel
+from sklearn.datasets import fetch_20newsgroups
+
+import spacy
+spacy.util.fix_random_seed(0)
+
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+import warnings
+warnings.filterwarnings("ignore")
+
+from collections import Counter
+import re
+import squarify
+import matplotlib.pyplot as plt
+import seaborn as sns
+import spacy
+from spacy.tokenizer import Tokenizer
+from nltk.stem import PorterStemmer
+from collections import defaultdict
+
+df1['genre'][100]
+import re
+re.sub('[^a-zA-Z 0-9]','', str(df1['genre']))
+
+tokens = str(df1['genre']).split()
+
+print(df1['genre'].unique())
+print(df1['genre'].value_counts())
+
+df1['genre'] = df1['genre'].apply(lambda x: x.lower())
+
+def tokenize(text):
+    """Parses a string into a list of semantic units (words)
+
+    Args:
+        text (str): The string that the function will tokenize.
+
+    Returns:
+        list: tokens parsed out by the mechanics of your choice
+    """
+
+    return tokens
+
+tokenize(str(df1['genre']))
+
+
+appears_in_docs = Counter()
+word_counts = Counter()
+
+word_count_dict = zip(word_counts.keys(), word_counts.values())
+wc = pd.DataFrame(word_count_dict, columns = ['name', 'genre'])
+
+wc['genre'] = wc['name'].rank(method='first', ascending=False)
+total = wc['name'].sum()
+
+
+wc['rank'] = wc['name'].rank(method='first', ascending=False)
+wc['fraction_of_total'] = wc['name'].apply(lambda token_count: token_count / total)
+
+wc = wc.sort_values(by='rank')
+wc['cumulative_fraction_of_total'] = wc['fraction_of_total'].cumsum()
+
+t2 = zip(appears_in_docs.keys(), appears_in_docs.values())
+ac = pd.DataFrame(t2, columns=['word', 'appears_in_docs'])
+
+wc['appears_in_fraction_of_docs'] = ac['appears_in_docs'].apply(lambda x: x / total_docs)
+
+import squarify
+import matplotlib.pyplot as plt
+
+wc_top20 = wc[wc['rank'] <= 20]
+
+squarify.plot(sizes=wc_top20['fraction_of_total'], label=wc_top20['word'], alpha=.8 )
+plt.axis('off')
+plt.show()
+
+def find_song(name, danceability):
+  
+    """
+    This function returns a dataframe with data for a song given the name and release year.
+    The function uses Spotipy to fetch audio features and metadata for the specified song.
+    
+    """
+    
+    song_data = defaultdict()
+    results = sp.search(q= 'track: {} year: {}'.format(name,
+                                                       danceability), limit=1)
+    if results['tracks']['items'] == []:
+        return None
+    
+    results = results['tracks']['items'][0]
+
+    track_id = results['id']
+    audio_features = sp.audio_features(track_id)[0]
+    
+    song_data['song_name'] = [name]
+    song_data['danceability'] = [danceability]
+    song_data['energy'] = [results[energy]]
+    song_data['duration_ms'] = [results[duration]]
+    song_data['time_signature'] = [int(results[timesig])]
+    
+    for key, value in audio_features.items():
+        song_data[key] = value
+    
+    return pd.df1(song_data)
+
+find_song()
+
